@@ -3,7 +3,14 @@ package com.pluralsight;
 public class Main {
     public static void main(String[] args) {
         String fullName = "Dr. Mel B Johnson, PhD";
+        String firstName = "Mel";
+        String lastName = "Johnson";
+        String prefix = "Dr.";
+        String middleName = "B";
+        String suffix = "PhD";
         System.out.println(NameFormatter.format(fullName));
+        System.out.println(NameFormatter.format(prefix, firstName, middleName, lastName, suffix));
+        System.out.println(NameFormatter.format(firstName, lastName));
 
         String fullName2 = "Dr. Mel B Johnson";
         System.out.println(NameFormatter.format(fullName2));

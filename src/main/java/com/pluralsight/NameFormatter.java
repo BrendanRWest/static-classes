@@ -15,7 +15,7 @@ public class NameFormatter {
 
     public static String format(String prefix, String firstName,
                                 String middleName, String lastName, String suffix){
-        return lastName + ", " + prefix + " " + firstName + " " + middleName.substring(0,1)
+        return lastName + ", " + prefix + " " + firstName + " " + middleName
                 + ", " + suffix;
     }
 
